@@ -1,0 +1,49 @@
+<%- include('partials/header_2.ejs'); -%>
+
+<body>
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex align-items-center">
+    <div class="container d-flex align-items-center">
+
+      <div class="logo me-auto">
+        <h1><a href="/">Nirvan</a></h1>
+      
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="book">Book an appointment</a></li>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Take the test</title>
+  <link rel="stylesheet" href="css/test.css">
+</head>
+<body>
+  <br><br><br>
+
+<h1>Quiz to analyse mental health</h1>
+<div class="quiz-container">
+  <div id="quiz"></div>
+</div><br><br><br><br>
+<button id="previous">Previous Question</button>
+<button id="next">Next Question</button>
+<button id="submit">Submit Quiz</button>
+<div id="results"></div>
+
+<!-- partial -->
+  <script  src="js/test.js"></script>
+  <br><br><br>
+</body>
+
+</html>
+
+<%- include('partials/footer.ejs'); -%>
+
